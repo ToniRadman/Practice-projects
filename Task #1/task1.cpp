@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-    cout<<"Ispis:"<<endl;
+    cout<<"Output:"<<endl;
     for (int i = 1; i <= 100; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
-        cout<<"Djeljiv s 3 i 5"<<endl;
+        cout<<"divisible by 3 and 5"<<endl;
     }
     else if(i % 3 == 0) {
-        cout<<"Djeljiv s 3"<<endl;
+        cout<<"divisible by 3"<<endl;
     }
     else if(i % 5 == 0) {
-        cout<<"Djeljiv s 5"<<endl;
+        cout<<"divisible by 5"<<endl;
     }
     else {
         cout<<i<<endl;
